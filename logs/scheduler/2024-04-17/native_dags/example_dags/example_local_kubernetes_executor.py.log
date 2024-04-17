@@ -1,0 +1,55 @@
+[2024-04-17T10:09:51.546-0300] {processor.py:161} INFO - Started process (PID=22774) to work on /home/lborba/.cache/pypoetry/virtualenvs/airflow-tutorial-3ROeDTU8-py3.11/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-04-17T10:09:51.547-0300] {processor.py:830} INFO - Processing file /home/lborba/.cache/pypoetry/virtualenvs/airflow-tutorial-3ROeDTU8-py3.11/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2024-04-17T10:09:51.549-0300] {logging_mixin.py:188} INFO - [2024-04-17T10:09:51.548-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/lborba/.cache/pypoetry/virtualenvs/airflow-tutorial-3ROeDTU8-py3.11/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-04-17T10:09:51.552-0300] {logging_mixin.py:188} INFO - [2024-04-17T10:09:51.551-0300] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/lborba/.cache/pypoetry/virtualenvs/airflow-tutorial-3ROeDTU8-py3.11/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2024-04-17T10:09:51.552-0300] {logging_mixin.py:188} INFO - [2024-04-17T10:09:51.552-0300] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2024-04-17T10:09:51.552-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/lborba/.cache/pypoetry/virtualenvs/airflow-tutorial-3ROeDTU8-py3.11/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-04-17T10:09:51.560-0300] {processor.py:183} INFO - Processing /home/lborba/.cache/pypoetry/virtualenvs/airflow-tutorial-3ROeDTU8-py3.11/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.019 seconds
+[2024-04-17T10:10:48.346-0300] {processor.py:161} INFO - Started process (PID=23383) to work on /home/lborba/.cache/pypoetry/virtualenvs/airflow-tutorial-3ROeDTU8-py3.11/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-04-17T10:10:48.348-0300] {processor.py:830} INFO - Processing file /home/lborba/.cache/pypoetry/virtualenvs/airflow-tutorial-3ROeDTU8-py3.11/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2024-04-17T10:10:48.349-0300] {logging_mixin.py:188} INFO - [2024-04-17T10:10:48.349-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/lborba/.cache/pypoetry/virtualenvs/airflow-tutorial-3ROeDTU8-py3.11/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-04-17T10:10:48.351-0300] {logging_mixin.py:188} INFO - [2024-04-17T10:10:48.351-0300] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/lborba/.cache/pypoetry/virtualenvs/airflow-tutorial-3ROeDTU8-py3.11/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2024-04-17T10:10:48.352-0300] {logging_mixin.py:188} INFO - [2024-04-17T10:10:48.352-0300] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2024-04-17T10:10:48.352-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/lborba/.cache/pypoetry/virtualenvs/airflow-tutorial-3ROeDTU8-py3.11/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-04-17T10:10:48.359-0300] {processor.py:183} INFO - Processing /home/lborba/.cache/pypoetry/virtualenvs/airflow-tutorial-3ROeDTU8-py3.11/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.017 seconds
+[2024-04-17T10:11:31.728-0300] {processor.py:161} INFO - Started process (PID=23729) to work on /home/lborba/.cache/pypoetry/virtualenvs/airflow-tutorial-3ROeDTU8-py3.11/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-04-17T10:11:31.734-0300] {processor.py:830} INFO - Processing file /home/lborba/.cache/pypoetry/virtualenvs/airflow-tutorial-3ROeDTU8-py3.11/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2024-04-17T10:11:31.736-0300] {logging_mixin.py:188} INFO - [2024-04-17T10:11:31.736-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/lborba/.cache/pypoetry/virtualenvs/airflow-tutorial-3ROeDTU8-py3.11/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-04-17T10:11:31.741-0300] {logging_mixin.py:188} INFO - [2024-04-17T10:11:31.739-0300] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/lborba/.cache/pypoetry/virtualenvs/airflow-tutorial-3ROeDTU8-py3.11/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2024-04-17T10:11:31.741-0300] {logging_mixin.py:188} INFO - [2024-04-17T10:11:31.741-0300] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2024-04-17T10:11:31.742-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/lborba/.cache/pypoetry/virtualenvs/airflow-tutorial-3ROeDTU8-py3.11/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-04-17T10:11:31.750-0300] {processor.py:183} INFO - Processing /home/lborba/.cache/pypoetry/virtualenvs/airflow-tutorial-3ROeDTU8-py3.11/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.030 seconds
+[2024-04-17T10:12:11.653-0300] {processor.py:161} INFO - Started process (PID=24114) to work on /home/lborba/.cache/pypoetry/virtualenvs/airflow-tutorial-3ROeDTU8-py3.11/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-04-17T10:12:11.659-0300] {processor.py:830} INFO - Processing file /home/lborba/.cache/pypoetry/virtualenvs/airflow-tutorial-3ROeDTU8-py3.11/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2024-04-17T10:12:11.661-0300] {logging_mixin.py:188} INFO - [2024-04-17T10:12:11.661-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/lborba/.cache/pypoetry/virtualenvs/airflow-tutorial-3ROeDTU8-py3.11/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-04-17T10:12:11.663-0300] {logging_mixin.py:188} INFO - [2024-04-17T10:12:11.663-0300] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/lborba/.cache/pypoetry/virtualenvs/airflow-tutorial-3ROeDTU8-py3.11/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2024-04-17T10:12:11.664-0300] {logging_mixin.py:188} INFO - [2024-04-17T10:12:11.664-0300] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2024-04-17T10:12:11.664-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/lborba/.cache/pypoetry/virtualenvs/airflow-tutorial-3ROeDTU8-py3.11/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-04-17T10:12:11.672-0300] {processor.py:183} INFO - Processing /home/lborba/.cache/pypoetry/virtualenvs/airflow-tutorial-3ROeDTU8-py3.11/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.023 seconds
+[2024-04-17T10:13:05.088-0300] {processor.py:161} INFO - Started process (PID=24992) to work on /home/lborba/.cache/pypoetry/virtualenvs/airflow-tutorial-3ROeDTU8-py3.11/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-04-17T10:13:05.097-0300] {processor.py:830} INFO - Processing file /home/lborba/.cache/pypoetry/virtualenvs/airflow-tutorial-3ROeDTU8-py3.11/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2024-04-17T10:13:05.102-0300] {logging_mixin.py:188} INFO - [2024-04-17T10:13:05.101-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/lborba/.cache/pypoetry/virtualenvs/airflow-tutorial-3ROeDTU8-py3.11/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-04-17T10:13:05.116-0300] {logging_mixin.py:188} INFO - [2024-04-17T10:13:05.109-0300] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/lborba/.cache/pypoetry/virtualenvs/airflow-tutorial-3ROeDTU8-py3.11/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2024-04-17T10:13:05.117-0300] {logging_mixin.py:188} INFO - [2024-04-17T10:13:05.117-0300] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2024-04-17T10:13:05.118-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/lborba/.cache/pypoetry/virtualenvs/airflow-tutorial-3ROeDTU8-py3.11/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-04-17T10:13:05.158-0300] {processor.py:183} INFO - Processing /home/lborba/.cache/pypoetry/virtualenvs/airflow-tutorial-3ROeDTU8-py3.11/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.091 seconds
